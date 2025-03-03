@@ -1,0 +1,28 @@
+{
+  "name": "aurora-co-pilot",
+  "version": "2.2.0",
+  "description": "Discord bot that answers questions from documentation, model training, and web search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "documentation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^3.3.0",
+    "pg": "^8.13.3"
+  },
+  "type": "module"
+}
